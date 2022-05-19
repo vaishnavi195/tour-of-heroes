@@ -11,6 +11,7 @@ import { RoutingModule } from './routing/routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AchievementComponent } from './achievement/achievement.component';
+import { FilterPipe } from './filter.pipe';
 // import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 // import { InMemoryDataService } from './in-memory-data.service';
 
@@ -24,6 +25,7 @@ import { AchievementComponent } from './achievement/achievement.component';
     MessageComponent,
     DashboardComponent,
     AchievementComponent,
+    FilterPipe,
   ],
   bootstrap: [AppComponent],
 })
