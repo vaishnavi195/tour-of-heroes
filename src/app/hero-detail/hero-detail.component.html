@@ -2,8 +2,14 @@
   <h2>{{ hero.name | uppercase }} details</h2>
   <div>is is : {{ hero.id }}</div>
   <div>
+    
     <label for="hero">Name</label>
     <input id="hero" [(ngModel)]="hero.name" placeholder="Enter name" />
   </div>
 </div>
+
+<nav>
+  <a routerLink="/Achieve/{{ hero.id }}">{{ hero.name }} achievements</a>
+</nav>
+
 <button type="button" (click)="goBack()">Goback</button>

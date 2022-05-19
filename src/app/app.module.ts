@@ -10,6 +10,7 @@ import { MessageComponent } from './message/message.component';
 import { RoutingModule } from './routing/routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AchievementComponent } from './achievement/achievement.component';
 // import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 // import { InMemoryDataService } from './in-memory-data.service';
 
@@ -22,6 +23,7 @@ import { HttpClientModule } from '@angular/common/http';
     HeroDetailComponent,
     MessageComponent,
     DashboardComponent,
+    AchievementComponent,
   ],
   bootstrap: [AppComponent],
 })
