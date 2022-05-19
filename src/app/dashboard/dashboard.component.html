@@ -3,11 +3,7 @@
 <input type="text" [(ngModel)]="filteredString" placeholder="Search Here" />
 <div>
   Heroes Menu
-  <a
-    *ngFor="let hero of heroes | filter: filteredString"
-    routerLink="/detail/{{ hero.id }}"
-  >
-
-    {{ hero.name }}</a
+  <a *ngFor="let hero of heroes | filter: filteredString">
+    routerLink="/detail/{{ hero.id }}" > {{ hero.name }}</a
   >
 </div>
